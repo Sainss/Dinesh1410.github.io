@@ -1,0 +1,68 @@
+table{
+	border-spacing : 10px;
+	width : 35vw;
+	height : 35vw;
+	margin-right : 32.5vw;
+}
+td{
+	border : 3px solid #827E86;
+	text-align : center;
+	background : url(../Images/bg.jpg);
+	border-radius : 5px ;
+	height : 25%;
+	width : 25%;
+}
+#game_stats{
+	width :32.5vw;
+	float : left;
+	color : #694199;
+	font-size : 25px;
+	text-align:center;
+	margin-top : 12vw;
+	
+}
+#game_over{
+	color : #EC9653 ;
+	margin-top : 12vw;
+	margin-left : 32.5vw;
+	position : absolute;
+	text-align : center;
+	font-size:7.5vw;
+	z-index : 1000;
+	text-shadow : 5px 5px #9D9898;
+}
+
+@media only screen and (max-width : 900px){
+	table{
+		width : 60vw;
+		height:60vw;
+		margin-right:20vw;
+	}
+	#game_stats{
+		width : auto;
+		text-align : center;
+		float :none ;
+		margin-top : 3vw;
+	}
+	#game_over{
+		font-size : 12vw;
+		margin-left :  20vw;
+		margin-top : 22vw;
+	}
+	
+}
+
+@media only screen and (max-width : 600px){
+	table{
+		width : 80vw;
+		height:80vw;
+		margin-right:10vw;
+	}
+	#game_over{
+		font-size : 15vw;
+		margin-left :  10vw;
+		margin-right :  10vw;
+		margin-top : 29vw;
+	}
+	
+}

@@ -1,0 +1,114 @@
+body{
+	background : #D7DBDD;
+}
+.header{
+	width:100%;
+	height:80px;
+	background:#BDC3C7  ;
+}
+.title{
+	color :#16A085;
+	font-size:33px;
+	font-weight : bold;
+	float : left;
+	margin : 20px auto 10px 60px;
+}
+.header ul{
+	list-style-type : none;
+	margin-left:35%;
+}
+.header li a{
+	font-size : 22px;
+	font-weight:bold;
+	color:#273746;
+	float:left;
+	margin-right:7%;
+	margin-top :30px;
+	text-decoration : none;
+}
+.header li a.active{
+	font-size : 22px;
+	font-weight:bold;
+	color:white;
+	float:left;
+	margin-right:7%;
+	margin-top :30px;
+	text-decoration : none;
+}
+.img_header{
+	width:100%;
+	height:200px;
+	box-sizing:border-box;
+	background : url(../Images/bg1.jpg) no-repeat;
+	background-size : 100%;
+	padding-top : 40px;
+}
+.img_header p{
+	font-family : cursive;
+	font-weight : bold;
+	font-size : 40px;
+	text-align : center;
+	color : #ffffff;
+}
+
+@media only screen and (max-width:700px){
+	.*{
+		box-sizing : border-box;
+	}
+	.header{
+		width:100%;
+		height:200px;
+		background:#BDC3C7 ;
+		padding-top : 20px;
+		padding-bottom:20px;
+	}
+	.title{
+		color :#16A085;
+		font-size:33px;
+		font-weight : bold;
+		float : none;
+		margin : 0px auto 20px auto;
+		text-align:center;
+	}
+	.header ul{
+		list-style-type : none;
+		margin-left:auto;
+	}
+	.header li a{
+		width : 80%;
+		height: 30px;
+		background : linear-gradient(90deg,#BDC3C7,#F2F3F4,#BDC3C7);
+		text-align:center;
+		margin-right:10%;
+		margin-left:7%;
+		margin-top :15px;
+		border-radius : 5px;
+		
+	}
+	.header li a.active{
+		color : #273746 ;
+		width : 80%;
+		height: 30px;
+		background : linear-gradient(90deg,#F2F3F4,#BDC3C7,#F2F3F4);
+		text-align:center;
+		margin-right:10%;
+		margin-left:7%;
+		margin-top :15px;
+		border-radius : 5px;
+	}
+	.img_header{
+		width:100%;
+		height:200px;
+		box-sizing:border-box;
+		background : url(../Images/bg1.jpg) no-repeat;
+		background-size : 100% 100%;
+		padding-top : 40px;
+	}
+	.img_header p{
+		font-family : cursive;
+		font-weight : bold;
+		font-size : 40px;
+		text-align : center;
+		color : #ffffff;
+	}
+}

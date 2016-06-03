@@ -1,0 +1,25 @@
+h3{
+	font-family :sans-serif;
+	text-shadow:1px 1px red;
+	color:#3498DB;
+}
+.color
+{
+	color:green;
+	text-decoration:none; 
+}
+.color:hover
+{
+	color:red;
+}
+.middle
+{
+	padding-bottom:90px;
+	padding-top:30px;
+	margin-left:5%;
+	margin-right:5%;
+	font-size:25px;
+	font-family:serif;
+	text-align:justify;
+	text-shadow:0.07px 0.07px red;
+}
