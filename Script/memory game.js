@@ -124,3 +124,4 @@ function delay()
 	clicked_id1 = null;
 	clicked_id2 = null;
 }
+
